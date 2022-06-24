@@ -1,0 +1,99 @@
+a {
+  color: #027d7f;
+  font-weight: 500;
+}
+ul {
+  list-style: none;
+  padding: 10px 5px;
+  font-size: smaller;
+  color: #004445;
+}
+p {
+  text-transform: capitalize;
+  margin: 2px;
+}
+
+.card {
+  border: 4px solid #faf5e4;
+  background-color: #f8b400;
+  margin: 50px auto;
+  border-radius: 3px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+}
+.city {
+  font-weight: 700;
+}
+.cityInput {
+  border: none;
+  background: #f8b400;
+}
+.currentButton {
+  background-color: #004445;
+  border: 1px solid #004445;
+  color: #faf5e4;
+  padding: 3px 50px;
+  border-radius: 3px;
+  font-weight: 500;
+  margin: 5px 37px;
+  font-size: smaller;
+  transition: all 200ms ease-in-out;
+}
+.currentButton:hover {
+  background: #f8b400;
+  color: #004445;
+}
+.forecast {
+  font-size: smaller;
+  color: #004445;
+  border: 4px solid #faf5e4;
+  border-radius: 3px;
+  padding: 2px;
+  text-align: center;
+}
+.forecastTemperaturesHigh {
+  font-size: 10px;
+  font-weight: bold;
+}
+.forecastTemperaturesLow {
+  font-size: 10px;
+}
+.forecastIcons {
+  font-size: 30px;
+
+  text-align: center;
+}
+.input {
+  border: 4px solid #faf5e4;
+  padding: 3px;
+  border-radius: 3px;
+}
+.searchButton {
+  background-color: #004445;
+  border: 1px solid #004445;
+  color: #faf5e4;
+  padding: 3px 50px;
+  border-radius: 3px;
+  font-weight: 500;
+  margin: 2px;
+  font-size: smaller;
+  transition: all 200ms ease-in-out;
+}
+.searchButton:hover {
+  background: #f8b400;
+  color: #004445;
+}
+.temperature {
+  font-size: 40px;
+  font-weight: 700;
+  color: #004445;
+}
+.units {
+  position: relative;
+  top: -20px;
+}
+
+.weatherIcon {
+  font-size: 100px;
+  color: #faf5e4;
+  padding: 20px 50px;
+}
