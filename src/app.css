@@ -43,9 +43,11 @@ p {
   color: #004445;
 }
 .description {
-  font-size: 12px;
-  margin: 0px;
-  text-align: center;
+  font-size: 10px;
+  display: inline-block;
+  position: relative;
+  top: -50px;
+  left: 360px;
 }
 .forecast {
   font-size: smaller;
@@ -64,7 +66,6 @@ p {
 }
 .forecastIcons {
   font-size: 30px;
-
   text-align: center;
 }
 .input {
