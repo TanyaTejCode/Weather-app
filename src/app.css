@@ -1,5 +1,5 @@
 a {
-  color: #027d7f;
+  color: #f8b400;
   font-weight: 500;
 }
 ul {
@@ -41,6 +41,11 @@ p {
 .currentButton:hover {
   background: #f8b400;
   color: #004445;
+}
+.description {
+  font-size: 12px;
+  margin: 0px;
+  text-align: center;
 }
 .forecast {
   font-size: smaller;
